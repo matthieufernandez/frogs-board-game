@@ -7,8 +7,6 @@ let isPalindrome = inputNum => {
 
   const intArr = inputNum.toString().split("").reverse().join("")
 
-  console.log(intArr, inputNum)
-
   if (inputNum.toString() === intArr) return true
 
   return false
